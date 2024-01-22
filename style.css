@@ -1,0 +1,752 @@
+.main
+{
+    height: 900px;
+    background-color: rgb(0, 0, 0);
+}
+
+#maintext
+{
+    color: white;
+    font-family: Unigeo Light;
+}
+
+@font-face {
+    font-family: Unigeo ExtraBold;
+    src: url(Unigeo64-Extrabold-trial.ttf);
+}
+
+@font-face {
+    font-family: Unigeo Light;
+    src: url(Unigeo64-Light-trial.ttf);
+}
+
+@font-face {
+    font-family: Unigeo Bold;
+    src: url(Unigeo64-Bold-trial.ttf);
+}
+
+@font-face {
+    font-family: Unigeo SemiBold;
+    src: url(Unigeo64-Semibold-trial.ttf);
+}
+
+@font-face {
+    font-family: Unigeo Regular;
+    src: url(Unigeo64-Regular-trial.ttf);
+}
+
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(Montserrat-Bold.ttf);
+}
+
+.header
+{
+    list-style: none;
+    color: rgb(255, 183, 0);
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#name
+{
+    color: white;
+    font-family: Unigeo Light;
+    font-size: 80px;
+    padding-left: 10px;
+    margin-top: -750px;
+}
+
+#name2
+{
+    color: rgb(255, 200, 0);
+    font-family: Unigeo Bold;
+    margin-top: -70px;
+    font-size: 150px;
+}
+
+#name3
+{
+    color: white;
+    font-family: Unigeo SemiBold;
+    font-size: 120px;
+    margin-top: -80px;
+    padding-left: 0px;
+}
+
+.nameclass
+{
+    margin-left: 100px;
+}
+
+#desig
+{
+    color:rgb(255, 200, 0);
+    font-family: Unigeo Light;
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+#about
+{
+    color: white;
+    font-family: Unigeo Light;
+    justify-content: left;
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.button
+{
+    font-family: Unigeo SemiBold;
+    width: 150px;
+    height: 50px;
+    margin-top: -90px;
+}
+
+.navbar{
+margin-left: 80px;
+}
+
+.nav-link:hover
+{
+    border-bottom: 2px solid rgb(255, 200, 0);
+}
+
+.nav-item{
+    font-family: Unigeo Light;
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+
+#img1
+{
+    margin-top: -150px;
+    margin-left: -20px;
+}
+
+.service
+{
+background-color: rgb(0, 0, 0);
+height: 420px;
+margin-top: -50px;
+}
+
+#hservice
+{
+     font-family: Unigeo Bold;
+     padding-top: 40px;
+     margin-left: 100px;
+     font-size: 70px;
+     color: black;
+     -webkit-text-stroke: 1px rgb(255, 200, 0);
+     transition: all 0.5s;
+     width: 0px;
+}
+
+#hservice:hover{
+    color: rgb(255, 200, 0);
+    -webkit-text-stroke: 1px rgb(255, 200, 0);
+    cursor: pointer;
+}
+
+.uiuxcard{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 420px;
+    max-height: 80px;
+}
+
+.uiuxcard:hover{
+    max-height: 300px;
+    background-color: black;
+
+    .reveal-details{
+      max-height: 250px;
+      transform: none;
+    }
+    .ucard{
+        border: 3px solid rgb(255, 200, 0);
+        max-height: 250px;
+        .card-title{
+        color: rgb(255, 200, 0);
+        }   
+    }
+}
+
+.ucard{
+    background-color: rgb(0, 0, 0);
+    max-height: 80px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.card-title{
+color: white;
+font-size: 30px;
+font-family: Unigeo Light;
+transition: all 0.5s;
+}
+
+.reveal-details{
+    overflow: hidden;
+    max-height: 0;
+    transform: translateY(10px);
+    transition: all .2s ease-in-out;
+    p {
+      color: #ffffff;
+      line-height: 1.4em;
+      font-family: Unigeo Light;
+    }
+}
+
+
+#Social{
+    font-family: Unigeo Bold;
+     margin-left: 200px;
+     margin-top: -430px;
+     font-size: 70px;
+     color: transparent;
+     -webkit-text-stroke: 1px rgb(255, 200, 0);
+     transition: all 0.5s;
+     width: 0px;
+}
+
+#Social:hover{
+    color: rgb(255, 200, 0);
+    -webkit-text-stroke: px rgb(255, 200, 0);
+    cursor: pointer;
+}
+
+#vert{
+    margin-left: 50px;
+    margin-top: -50px;
+    width: 100px;
+    height: 400px;
+}
+
+
+#socicon{
+    height: 30px;
+    margin-top: 30px;
+    position: relative;
+    left: 140px;
+    transition: .25s ease-in-out;
+}
+
+
+#icons{
+    color: rgb(255, 255, 255);
+    font-family: Unigeo Semibold;
+    font-size: 25px;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.social-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.socm{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#soctext{
+    font-family: Unigeo Semibold;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    top: 25px;
+    left: 165px;
+    display: flex;
+}
+
+#soctextb{
+    font-family: Montserrat Bold;
+    font-size: 25px;
+    color: #ffffff;
+    position: relative;
+    top: 25px;
+    left: 165px;
+    display: flex;
+}
+
+#soctext a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#soctextb a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.soctext a:hover{
+    color: #ffffff;
+}
+
+#soctext:hover ~ #socicon{
+    transform: scale(1.2);
+    background-color: transparent;
+    filter: drop-shadow(0px 0px 5px rgb(255, 200, 0));
+  }
+
+#soctextb:hover ~ #socicon{
+    transform: scale(1.2);
+    background-color: transparent;
+    filter: drop-shadow(0px 0px 5px rgb(255, 200, 0));
+  }
+
+.sk{
+    height: 400px;
+    background-color: black;
+    }
+
+#hskills{
+    font-family: Unigeo Bold;
+    font-size: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 200, 0);
+    transition: all 0.5s;
+    position: relative;
+    left: 100px;
+    width: 500px;
+
+    &:hover
+    {
+    color: rgb(255, 200, 0);
+    cursor: pointer;
+    }
+}
+ 
+.skills{
+position: relative;
+left: 100px;
+width: 300px;
+}
+
+.figma{
+ background-color: rgb(0, 0, 0);
+ height: 180px;
+ position: relative;
+ border: 1px solid white;
+ border-radius: 40px;
+ display: flex;
+
+ &:hover{
+ transform: scale(1.1);
+ transition: .25s;
+ border-radius: 20px;
+ border: 3px solid white;
+ }
+ }
+
+#fig{
+height: 70px;
+display: flex;
+position: relative;
+left: 10px;
+top: 25px;
+}
+
+.figma h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: Unigeo Regular;
+    position: relative;
+    top: 10px;
+}
+
+.figma h5{
+    color: #afafaf;
+    font-size: 18px;
+    font-family: Unigeo light;
+    
+}
+
+.figmalogo{
+    flex: 0 0 20%
+}
+
+.description{
+    flex:1;
+    padding-left: 20px;
+}
+
+.progress{
+    width: 170px;
+}
+
+.photoshop{
+ background-color: rgb(0, 0, 0);
+ height: 180px;
+ position: relative;
+ border: 1px solid white;
+ border-radius: 40px;
+ display: flex;
+
+  &:hover{
+ transform: scale(1.1);
+ border-radius: 20px;
+ border: 3px solid white;
+ transition: .25s ease-in-out;
+ }
+ }
+
+.photoshop h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Unigeo Regular;
+    position: relative;
+    top: 10px;
+    line-height: 35px;
+}
+
+.photoshop h5{
+    color: #afafaf;
+    font-size: 18px;
+    font-family: Unigeo light;
+}
+
+.illustrator{
+ background-color: rgb(0, 0, 0);
+ height: 180px;
+ position: relative;
+ border: 1px solid white;
+ border-radius: 40px;
+ display: flex;
+
+ &:hover{
+ transform: scale(1.1);
+ transition: .25s ease-in-out;
+ border-radius: 20px;
+ border: 3px solid white;
+ }
+ }
+
+.illustrator h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Unigeo Regular;
+    position: relative;
+    top: 10px;
+    line-height: 35px;
+}
+
+.illustrator h5{
+    color: #afafaf;
+    font-size: 18px;
+    font-family: Unigeo light;
+}
+
+.xd{
+ background-color: rgb(0, 0, 0);
+ height: 180px;
+ position: relative;
+ border: 1px solid white;
+ border-radius: 40px;
+ display: flex;
+
+ &:hover{
+ transform: scale(1.1);
+ transition: .25s ease-in-out;
+ border-radius: 20px;
+ border: 3px solid white;
+ }
+ }
+
+.xd h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: Unigeo Regular;
+    position: relative;
+    top: 20px;
+    line-height: 35px;
+}
+
+.xd h5{
+    color: #afafaf;
+    font-size: 18px;
+    font-family: Unigeo light;
+    position: relative;
+    top: 10px;
+}
+
+.skillrow{
+width: 88%;
+}
+
+#oth{
+    text-align: center;
+    color: #6d6d6d;
+    font-size: 20px;
+    font-family: Unigeo Regular;
+    position: relative;
+    top: 20px;
+}
+
+#ae{
+    height: 50px;
+    &:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+    }
+}
+
+#pr{
+    height: 50px;
+    padding-left: 10px;
+    &:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    }
+}
+
+#bl{
+    height: 50px;
+    padding-left: 10px;
+    &:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    }
+}
+
+#my{
+    height: 50px;
+    padding-left: 10px;
+    &:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    }
+}
+
+
+.othlogo{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.work{
+    height: 1100px;
+    background-color: black;
+}
+
+#wrk{
+    font-family: Unigeo Bold;
+    font-size: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 200, 0);
+    transition: all 0.5s;
+    width: 0px;
+    position: relative;
+    left: 100px;
+
+    &:hover
+    {
+    color: rgb(255, 200, 0);
+    cursor: pointer;
+    }
+}
+
+.carousel{
+    width: 85%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#BS{
+    color: #ffffff;
+    font-family: Unigeo Light;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+    position: relative;
+    top: 5px;
+    }
+
+#UI{
+    color: #ffffff;
+    font-family: Unigeo Light;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 10px;
+    position: relative;
+    top: 105px;
+    }
+
+.carousel2{
+    width: 85%;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.btnnew{
+    position: relative;
+    top: 160px;
+    width: 300px;
+    background: linear-gradient()
+}
+
+.get{
+    height: 500px;
+    background-color: black;
+}
+
+#touch{
+    font-family: Unigeo Bold;
+    font-size: 70px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 200, 0);
+    transition: all 0.5s;
+    position: relative;
+    left: 100px;
+    width: 400px;
+
+    &:hover
+    {
+    color: rgb(255, 200, 0);
+    cursor: pointer;
+    }
+}
+
+.gitpara{
+    color: #ffffff;
+    font-family: Unigeo Regular;
+    margin-left: 100px;
+    width: 30%;
+}
+
+
+.formnew{
+    margin-left: 100px;
+}
+
+.formtext{
+    font-family: Unigeo Regular;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#msg{
+    color: rgb(255, 200, 0);
+    font-family: Unigeo Bold;
+    position: relative;
+    left: 210px;
+    top: -55px;
+}
+
+.arrow{
+padding-left: 10px;
+}
+
+.textbox{
+    height: 50px;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 200, 0);;
+    color: #ffffff;
+    font-family: Unigeo Regular;
+}
+
+.mail{
+    padding-top: 10px;
+}
+
+.message{
+    padding-top: 10px;
+}
+
+.textbox2{
+    height: 100px;
+    width: 350px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 200, 0);;
+    color: #ffffff;
+    font-family: Unigeo Regular;
+}
+
+.send{
+    margin: auto;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.final{
+    background-color: rgb(255, 200, 0) ;
+    height: 100px;
+}
+
+.smicons{
+    position: relative;
+    top: 25px;
+    left: 100px;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+#idname{
+    padding-left: 110px;
+    padding-top: 35px;
+    font-family: Unigeo Regular;
+}
+
+#idname2{
+    padding-left: 20px;
+    padding-top: 35px;
+    font-family: Unigeo Regular;
+}
+   
+.smicons2{
+    font-size: 30px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+.footer{
+    display: flex;
+}
+
+.sendicon{
+    padding-left: 10px;
+}
+
+.finallinks{
+    color: #4e4e4e;
+    display: flex;
+}
+
+.l2{
+    padding-left: 20px;
+}
+
+#flink{
+    color: #afafaf;
+}
+
+#flink:hover{
+    color: #ffffff;
+}
